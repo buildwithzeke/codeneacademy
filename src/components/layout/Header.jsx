@@ -16,11 +16,11 @@ function Header({ darkMode = false, menuOpen, onMenu, onTheme }) {
           {darkMode ? <img
             src="/brand/coden_short_w_trans.png"
             alt="Codeneacademy logo"
-            className="h-50 w-50"
+            className="h-12 object-cover"
           /> : <img
             src="/brand/codene_short_trans.png"
             alt="Codeneacademy logo"
-            className="h-50 w-50"
+            className="h-12 object-cover"
           />}
         </a>
 
