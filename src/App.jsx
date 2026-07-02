@@ -5,8 +5,8 @@ import Hero from "./components/layout/Hero";
 import About from "./components/layout/About";
 import Footer from "./components/layout/Footer";
 import Header from "./components/layout/Header";
-import Contact from "./components/layout/Contact";
-import Community from "./components/layout/Community";
+// import Contact from "./components/layout/Contact";
+// import Community from "./components/layout/Community";
 
 
 function App() {
@@ -27,8 +27,8 @@ function App() {
       />
       <Hero />
       <About />
-      <Community />
-      <Contact />
+      {/* <Community />
+      <Contact /> */}
       <Footer />
     </main>
   );

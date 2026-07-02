@@ -5,23 +5,23 @@ import { Sun, Moon, Menu, X } from "lucide-react";
 // data
 import { navItems } from "../../CONSTANT";
 
-function Header({ darkMode, menuOpen, onMenu, onTheme }) {
+function Header({ darkMode = false, menuOpen, onMenu, onTheme }) {
 
   //  bg-brand-ink/[0.88] dark:bg-brand-ink/[0.86]
   return (
     <header className="fixed inset-x-0 top-0 z-50 border-b border-gray/10 backdrop-blur-xl">
 
       <div className="mx-auto flex h-20 max-w-7xl items-center justify-between px-5 lg:px-8">
-        <a href="#home" className="flex items-center gap-3" aria-label="Codene Academy">
-          <img
-            src="/brand/logo.jpg"
-            alt="Codene Academy logo"
-            className="h-11 w-11 rounded-2xl object-cover object-left"
-          />
-          <span className="leading-none text-white">
-            <span className="block text-lg font-black">Codene</span>
-            <span className="block text-lg font-black">Academy</span>
-          </span>
+        <a href="#home" className="flex items-center gap-3" aria-label="Codeneacademy">
+          {darkMode ? <img
+            src="/brand/coden_short_w_trans.png"
+            alt="Codeneacademy logo"
+            className="h-50 w-50"
+          /> : <img
+            src="/brand/codene_short_trans.png"
+            alt="Codeneacademy logo"
+            className="h-50 w-50"
+          />}
         </a>
 
         <nav className="hidden items-center gap-9 text-sm font-semibold text-white lg:flex">
