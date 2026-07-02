@@ -1,0 +1,38 @@
+# Ignore node modules
+node_modules/
+
+# Ignore distribution files
+dist/   
+
+# Ignore log files
+logs/       
+
+# Ignore environment variable files
+.env    
+
+# Ignore build artifacts
+build/
+
+# Ignore coverage reports
+coverage/
+
+# Ignore temporary files
+tmp/
+
+# Ignore IDE specific files
+.vscode/
+
+# Ignore OS generated files
+.DS_Store
+
+# Ignore npm debug logs
+npm-debug.log*
+
+# Ignore yarn debug logs
+yarn-debug.log*
+
+
+# Ignore yarn.lock
+yarn.lock
+# Ignore pnpm-lock.yaml     
+
