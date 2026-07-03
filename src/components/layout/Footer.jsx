@@ -15,14 +15,10 @@ export default function Footer() {
         <div>
           <div className="flex items-center gap-3">
             <img
-              src="/brand/logo.jpg"
-              alt="Codene Academy logo"
-              className="h-12 w-12 rounded-2xl object-cover object-left"
+              src="/brand/coden_short_w_trans.png"
+              alt="Codeneacademy logo"
+              className="h-12 object-cover"
             />
-            <div className="text-lg font-black leading-none">
-              <span className="block">Codene</span>
-              <span className="block">Academy</span>
-            </div>
           </div>
           <p className="mt-4 text-sm text-white/[0.62]">Code. Learn. Build. Succeed.</p>
         </div>
