@@ -3,7 +3,7 @@ import { CalendarDays, MessageCircle } from "lucide-react";
 
 //components
 import Button from "../ui/Button";
-// import HeroVisual from "../HeroVisual"
+import HeroVisual from "../HeroVisual"
 import SectionKicker from "../SectionKicker";
 import DecorativeGrid from "../DecorativeGrid";
 
@@ -39,7 +39,7 @@ export default function Hero() {
             </Button>
           </div>
         </div>
-        {/* <HeroVisual /> */}
+        <HeroVisual />
       </div>
     </section>
   );

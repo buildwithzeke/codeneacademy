@@ -35,10 +35,10 @@ export default function Footer() {
         <div>
           <h3 className="font-black uppercase text-brand-orange">Follow Us</h3>
           <div className="mt-4 flex gap-3">
-            <Social icon={MessageCircle} label="WhatsApp" />
-            <Social icon={Linkedin} label="LinkedIn" />
-            <Social icon={Github} label="GitHub" />
-            <Social icon={Youtube} label="YouTube" />
+            <Social icon={MessageCircle} label="WhatsApp" target="https://wa.me/2348100196214" />
+            <Social icon={Linkedin} label="LinkedIn" target="https://linkedin.com/company/codeneacademy" />
+            <Social icon={Github} label="GitHub" target="https://github.com/buildwithzeke/codeneacademy" />
+            <Social icon={Youtube} label="YouTube" target="https://www.youtube.com/@buildwithzeke" />
           </div>
           <p className="mt-6 text-sm text-white/[0.55]">
             Designed with care for future developers.
