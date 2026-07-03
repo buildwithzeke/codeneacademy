@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { useThemeStore } from "./store/themeStore.jsx";
 
 //components
 import Hero from "./components/layout/Hero";
@@ -10,7 +11,8 @@ import Header from "./components/layout/Header";
 
 
 function App() {
-  const [darkMode, setDarkMode] = useState(true);
+  const darkMode = useThemeStore((state) => state.darkMode);
+  const toggleTheme = useThemeStore((state) => state.toggleTheme);
   const [menuOpen, setMenuOpen] = useState(false);
 
   useEffect(() => {
@@ -23,7 +25,7 @@ function App() {
         darkMode={darkMode}
         menuOpen={menuOpen}
         onMenu={() => setMenuOpen((open) => !open)}
-        onTheme={() => setDarkMode((mode) => !mode)}
+        onTheme={toggleTheme}
       />
       <Hero />
       <About />
